@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CY Chen Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(to right, #3b5998, #8b9dc3);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #d6336c;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: white;
+            background: #d6336c;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        CY Chen Photography
+    </header>
+
+    <div class="container">
+        <h2>風景攝影</h2>
+        <div class="gallery">
+            <img src="landscape1.jpg" alt="風景照 1">
+            <img src="landscape2.jpg" alt="風景照 2">
+            <img src="landscape3.jpg" alt="風景照 3">
+        </div>
+
+        <h2>啦啦隊女孩</h2>
+        <div class="gallery">
+            <img src="cheer1.jpg" alt="啦啦隊女孩 1">
+            <img src="cheer2.jpg" alt="啦啦隊女孩 2">
+            <img src="cheer3.jpg" alt="啦啦隊女孩 3">
+        </div>
+
+        <h2>關於我</h2>
+        <p>熱愛風景攝影與捕捉啦啦隊女孩的動感瞬間，這裡是我的攝影作品展示。</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/cychenphotography" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+</body>
+</html>
